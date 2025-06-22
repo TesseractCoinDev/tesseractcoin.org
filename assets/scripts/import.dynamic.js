@@ -1,3 +1,4 @@
+const toheader = document.getElementById('header');
 const header = `
 <header>
   <div class="left">
@@ -14,3 +15,4 @@ const header = `
 </header>
 `;
 
+toheader.appendChild(header);
