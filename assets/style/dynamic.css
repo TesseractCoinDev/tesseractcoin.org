@@ -1,0 +1,24 @@
+header {
+  top: 0;
+  margin: 0;
+  background-color: #FBE8D3;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerlogo {
+  width: 10px;
+  height: auto;
+  object-fit: cover;
+}
+
+.hl {
+  padding: 5px;
+  color: #8B715E;
+  background-color: #FF6F61;
+  border-radius: 7px;
+  margin: 0 5px 0 5px;
+}
+
+
+
