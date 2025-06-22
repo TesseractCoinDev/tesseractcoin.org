@@ -17,10 +17,15 @@ body {
 }
 
 .heroimg {
-  width: 50px;
+  width: 20px;
   height: auto;
   flex-direction: row;
   object-fit: cover;
+}
+
+.slogan,
+.intro {
+  flex-direction: column;
 }
 
 .slogan {
