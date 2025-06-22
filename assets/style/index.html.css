@@ -13,21 +13,13 @@ body {
   margin: 0;
   color: #4A3F35;
   text-align: center;
-  display: flex;
 }
 
 .heroimg {
   width: 20px;
   height: auto;
-  flex-direction: row;
   object-fit: cover;
 }
-
-.slogan,
-.intro {
-  flex-direction: column;
-}
-
 .slogan {
   font-size: 50px;
   font-weight: 500;
