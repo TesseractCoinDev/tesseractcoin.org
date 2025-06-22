@@ -1,5 +1,4 @@
-const toheader = document.getElementById('header');
-const header = `
+document.getElementById('header').innerHTML = `
 <header>
   <div class="left">
     <img class="headerlogo" src="/assets/images/tesseract-lockup-1.transparent.png" alt="TESSERACT">
@@ -14,5 +13,3 @@ const header = `
   </div>
 </header>
 `;
-
-toheader.appendChild(header);
