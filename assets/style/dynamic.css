@@ -20,6 +20,7 @@ header {
   width: 200px;
   height: auto;
   object-fit: cover;
+  margin-right: 2.5px;
 }
 
 .hl {
