@@ -1,7 +1,7 @@
 document.getElementById('header').innerHTML = `
 <header>
   <div class="left">
-    <img class="headerlogo" src="/assets/images/tesseract-lockup-1.transparent.png" alt="TESSERACT">
+    <img class="headerlogo" src="/assets/images/tesseract-lockup-1.transparent.png" alt="TESSERACT" onclick="window.location.href='/';">
     <a class="hl" href="https://docs.tesseractcoin.org/">Docs</a>
     <a class="hl" href="/products/mining">Mining</a>
     <a class="hl" href="/products/wallet">Wallet</a>
