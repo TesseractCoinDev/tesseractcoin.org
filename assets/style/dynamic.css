@@ -11,7 +11,8 @@ header {
   border-bottom: 1px solid #000;
 }
 
-.left {
+.left,
+.right {
   display: flex;
   align-items: center;
 }
