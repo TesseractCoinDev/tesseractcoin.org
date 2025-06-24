@@ -64,7 +64,6 @@ body {
   flex-direction: column;
   margin: 20px;
   height: auto;
-  width: auto;
   max-width: 100%;
   background-color: #FFECD1;
   border-radius: 9px;
@@ -79,7 +78,7 @@ body {
 }
 
 .introdesc {
-  margin-top: 5px;
+  margin: 5px 0;
   font-size: 30px;
   font-weight: 250;
   text-align: left;
