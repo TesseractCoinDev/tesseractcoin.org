@@ -65,12 +65,19 @@ body {
   color: #4A3F35;
   display: flex;
   flex-direction: column;
-  margin: 20px;
   height: auto;
   max-width: 75%;
   background-color: #FFECD1;
   border-radius: 9px;
   padding: 20px;
+}
+
+#intro1 {
+  margin: 20px 20px 0 20px;
+}
+
+#intro2 {
+  margin: 5px 20px 20px 20px;
 }
 
 .introtitle {
