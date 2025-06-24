@@ -32,6 +32,12 @@ body {
   margin-top: 5px;
 }
 
+#marketintro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 #marketapi {
   color: #4A3F35;
   background-color: #FFECD1;
@@ -56,7 +62,6 @@ body {
   color: #4A3F35;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .introtitle {
