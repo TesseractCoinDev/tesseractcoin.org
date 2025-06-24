@@ -71,7 +71,8 @@ body {
 }
 
 #intro1,
-#intro2 {
+#intro2,
+#intro3 {
   color: #4A3F35;
   display: flex;
   flex-direction: column;
