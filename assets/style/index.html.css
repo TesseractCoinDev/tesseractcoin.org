@@ -32,13 +32,15 @@ body {
   margin-top: 5px;
 }
 
-#marketintro {
+#row1,
+#row2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 
-#marketapi {
+#marketapi,
+#hashapi {
   color: #4A3F35;
   background-color: #FFECD1;
   border-radius: 9px;
@@ -50,7 +52,7 @@ body {
   width: fit-content;
 }
 
-.markettxt {
+.apitxt {
   font-size: 35px;
   font-weight: 500;
   text-align: center;
@@ -58,7 +60,8 @@ body {
   margin: 5px 0 5px 0;
 }
 
-#intro1 {
+#intro1,
+#intro2 {
   color: #4A3F35;
   display: flex;
   flex-direction: column;
