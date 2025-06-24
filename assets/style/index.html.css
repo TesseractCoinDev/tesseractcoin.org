@@ -35,7 +35,7 @@ body {
 #marketintro {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 #marketapi {
@@ -62,9 +62,8 @@ body {
   color: #4A3F35;
   display: flex;
   flex-direction: column;
-  width: 500px;
-  max-width: 100%;
   margin: 20px;
+  height: auto;
 }
 
 .introtitle {
