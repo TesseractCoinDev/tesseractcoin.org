@@ -33,6 +33,7 @@ body {
 }
 
 #marketapi {
+  color: #4A3F35;
   background-color:	#FFECD1;
   border-radius: 9px;
   margin: 20px 0 20px 20px;
@@ -52,6 +53,7 @@ body {
 }
 
 #intro1 {
+  color: #4A3F35;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
