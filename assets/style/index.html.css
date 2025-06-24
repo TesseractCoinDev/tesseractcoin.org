@@ -62,7 +62,11 @@ body {
   color: #4A3F35;
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
+}
+
+.introtitle,
+.introdesc {
+  max-width: 100%;
 }
 
 .introtitle {
