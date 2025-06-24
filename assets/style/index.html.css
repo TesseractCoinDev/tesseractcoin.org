@@ -35,11 +35,12 @@ body {
 #marketapi {
   background-color:	#FFECD1;
   border-radius: 9px;
-  margin: 20px;
+  margin: 20px auto;
   padding: 10px;
   display: flex;
   flex-direction: column;
   left: 0;
+  width: fit-content;
 }
 
 .markettxt {
