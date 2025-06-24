@@ -35,8 +35,7 @@ body {
 #marketintro {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  height: fit-content;
+  align-items: stretch;
 }
 
 #marketapi {
