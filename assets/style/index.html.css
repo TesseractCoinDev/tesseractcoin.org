@@ -89,6 +89,10 @@ body {
   margin: 20px 20px 0 20px;
 }
 
+#intro3 {
+  margin: 0 20px 20px 20px;
+}
+
 .introtitle {
   margin: 0;
   font-size: 35px;
