@@ -64,6 +64,8 @@ body {
   flex-direction: column;
   margin: 20px;
   height: auto;
+  width: 500px;
+  max-width: 100%;
 }
 
 .introtitle {
