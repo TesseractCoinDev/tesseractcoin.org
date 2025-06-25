@@ -7,12 +7,20 @@ body {
   background-color: #FFF8E7;
 }
 
-#hero {
+#hero,
+#getstarted {
   background-color: #FFECD1;
   padding: 10px;
-  margin: 0;
   color: #4A3F35;
   text-align: center;
+}
+
+#hero {
+  margin: 0;
+}
+
+#getstarted {
+  margin: 0 20px;
 }
 
 .heroimg {
@@ -21,7 +29,8 @@ body {
   object-fit: cover;
 }
 
-.slogan {
+.slogan,
+.starttitle {
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 0;
