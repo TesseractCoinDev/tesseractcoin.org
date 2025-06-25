@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #FFF8E7;
-  max-height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 #hero,
