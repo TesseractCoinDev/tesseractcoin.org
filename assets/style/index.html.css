@@ -24,19 +24,16 @@ body {
   object-fit: cover;
 }
 
-.slogan,
-.starttitle {
-  margin-bottom: 0;
-}
-
 .slogan {
   font-size: 50px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .starttitle {
   font-size: 45px;
   font-weight: 450;
+  margin-bottom: 20px;
 }
 
 .intro {
