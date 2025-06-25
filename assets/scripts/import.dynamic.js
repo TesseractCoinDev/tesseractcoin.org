@@ -16,3 +16,34 @@ document.getElementById('header').innerHTML = `
   </div>
 </header>
 `;
+
+document.getElementById('footer').innerHTML = (`
+    <footer>
+        <div class="fcol1">
+            <p class="ftitle">Legal & Docs</p>
+            <a class="flink" href="https://docs.tesseractcoin.org/">Documentation</a>
+            <a class="flink" href="/privacy.html">Privacy Policy</a>
+            <a class="flink" href="/license.html">License</a>
+            <a class="flink" href="/changelog.html">Changelog</a>
+        </div>
+        <div class="fcol2">
+            <p class="ftitle">Resources</p>
+            <a class="flink" href="https://explorer.tesseractcoin.org/" target="_blank">Explorer</a>
+            <a class="flink" href="/products/pool" target="_blank">Tesseract Pool</a>
+            <a class="flink" href="/products/mining" target="_blank">Tesseract Miner</a>
+            <a class="flink" href="/products/wallet" target="_blank">Tesseract Wallet</a>
+            <a class="flink" href="https://status.tesseractcoin.org/" target="_blank">Status Page</a>
+        </div>
+        <div class="fcol3">
+            <p class="ftitle">Community</p>
+            <a class="flink" href="https://twitter.com/TesseractDevs" target="_blank">Twitter (X)</a>
+            <a class="flink" href="https://discord.gg/wPA6eeUEpM" target="_blank">Discord</a>
+            <a class="flink" href="https://github.com/TesseractCoinDev" target="_blank">GitHub</a>
+        </div>
+        <div class="fcol4">
+            <p class="ftitle">Support</p>
+            <a class="flink" href="https://support.tesseractcoin.org/">Support</a>
+            <a class="flink" href="https://community.tesseractcoin.org/">Forums</a>
+        </div>
+    </footer>
+`);
