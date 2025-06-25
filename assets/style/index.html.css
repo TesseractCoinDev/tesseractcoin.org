@@ -31,9 +31,17 @@ body {
 
 .slogan,
 .starttitle {
+  margin-bottom: 0;
+}
+
+.slogan {
   font-size: 50px;
   font-weight: 500;
-  margin-bottom: 0;
+}
+
+.starttitle {
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .intro {
@@ -129,15 +137,13 @@ body {
   background-color: #FFD580;
   border-radius: 7px;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 10px 20px 20px 20px;
   color: #8B715E;
   font-size: 35px;
   font-weight: 300;
-  transition: background-color 0.3s ease, color 0.3s ease;
   cursor: pointer;
 }
 
 .start:hover {
-  color: #FF7755;
-  background-color: #a18650;
+  background-color: #fff2d6;
 }
