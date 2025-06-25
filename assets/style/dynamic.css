@@ -11,6 +11,19 @@ header {
   border-bottom: 1px solid #000;
 }
 
+footer {
+  background-color: #F5D7C3;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(215, 186, 170, 0.3);
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
 .left,
 .right {
   display: flex;
@@ -41,6 +54,43 @@ header {
 
 .hl:hover {
   color: #FF7755;
+}
+
+.ftitle {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #5C4631;
+  text-align: center;
+}
+
+
+.flink {
+  color: #8B715E;
+  font-size: 1em;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.flink:hover {
+  color: #FF7755;
+}
+
+.fcol1, .fcol2, .fcol3, .fcol4 {
+  max-width: 200px;
+}
+
+.fcol4 {
+  position: relative;
+}
+
+.fcol4 .flink {
+  display: flex;
+  align-items: center;
 }
 
 
