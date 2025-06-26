@@ -93,4 +93,38 @@ footer {
   align-items: center;
 }
 
+.fbottom {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.fs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.s {
+  border-radius: 50%;
+  font-size: 30px;
+  color: #8B715E;
+  background-color: #E5C5B1;
+  padding: 5px;
+  margin: 0 2.5px 0 2.5px;
+}
+
+.s:hover {
+  background-color: #FF7755;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 25px;
+  color: #5C4631;
+  margin: 5px;
+}
+
+
 
