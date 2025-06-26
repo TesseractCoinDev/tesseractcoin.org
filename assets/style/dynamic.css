@@ -113,6 +113,8 @@ footer {
   background-color: #E5C5B1;
   padding: 5px;
   margin: 0 2.5px 0 2.5px;
+  width: 35px;
+  height: auto;
 }
 
 .s:hover {
