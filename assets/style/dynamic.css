@@ -1,9 +1,27 @@
+header,
+footer,
+.left,
+.right,
+.hl,
+.flink,
+.fcols,
+.fcol4,
+.fbottom,
+.fs {
+  display: flex;
+}
+
+header,
+.fcols,
+.fs {
+  flex-direction: row;
+}
+
+
 header {
   top: 0;
   margin: 0;
   background-color: #FBE8D3;
-  display: flex;
-  flex-direction: row;
   width: auto;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +33,6 @@ footer {
   background-color: #F5D7C3;
   z-index: 1000;
   box-shadow: 0 0 10px rgba(215, 186, 170, 0.3);
-  display: flex;
   bottom: 0;
   width: 100%;
   flex-direction: column;
@@ -26,7 +43,6 @@ footer {
 
 .left,
 .right {
-  display: flex;
   align-items: center;
 }
 
@@ -39,7 +55,6 @@ footer {
 }
 
 .hl {
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: 5px;
@@ -69,7 +84,6 @@ footer {
   color: #8B715E;
   font-size: 1em;
   text-decoration: none;
-  display: flex;
   flex-direction: column;
   text-align: center;
   margin-bottom: 8px;
@@ -89,19 +103,15 @@ footer {
 }
 
 .fcol4 .flink {
-  display: flex;
   align-items: center;
 }
 
 .fbottom {
-  display: flex;
   flex-direction: column;
   margin: 20px;
 }
 
 .fs {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
