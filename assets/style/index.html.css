@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+#getstarted {
+  padding-bottom: 50px;
+}
+
 .heroimg {
   width: 20px;
   height: auto;
