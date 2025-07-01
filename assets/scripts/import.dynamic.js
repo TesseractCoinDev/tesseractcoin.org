@@ -1,3 +1,6 @@
+const bars = document.querySelector('.bars i');
+const mobile = document.querySelector('.mobile');
+
 document.getElementById('header').innerHTML = `
 <header>
   <div class="left">
@@ -13,6 +16,19 @@ document.getElementById('header').innerHTML = `
     <a class="hl" href="https://x.com/TesseractDevs" target="_blank"><i class="fab fa-x-twitter"></i></a>
     <a class="hl" href="https://discord.gg/wPA6eeUEpM" target="_blank"><i class="fab fa-discord"></i></a>
     <a class="hl" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
+  </div>
+  <span class="bars"><i class="fas fa-bars"></i></span>
+  <div class="mobile">
+    <a class="hlm" href="https://docs.tesseractcoin.org/">Docs</a>
+    <a class="hlm" href="/products/mining">Mining</a>
+    <a class="hlm" href="/products/wallet">Wallet</a>
+    <a class="hlm" href="https://status.tesseractcoin.org/">Status</a>
+    <a class="hlm" href="/changelog.html">Changelog</a>
+    <div class="div"></div>
+    <a class="hlm" href="https://github.com/TessseractCoinDev/TesseractCoin" target="_blank"><i class="fab fa-github"></i></a>
+    <a class="hlm" href="https://x.com/TesseractDevs" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    <a class="hlm" href="https://discord.gg/wPA6eeUEpM" target="_blank"><i class="fab fa-discord"></i></a>
+    <a class="hlm" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
   </div>
 </header>
 `;
@@ -57,3 +73,15 @@ document.getElementById('footer').innerHTML = (`
       </div>
     </footer>
 `);
+
+document.querySelector('.bars').addEventListener('click', () => {
+  mobile.classList.toggle('active');
+
+  if (mobile.classList.contains('active')) {
+    bars.classList.remove('fa-bars');
+    bars.classList.add('fa-times');
+  } else {
+    bars.classList.remove('fa-times');
+    bars.classList.add('fa-bars');
+  }
+});
