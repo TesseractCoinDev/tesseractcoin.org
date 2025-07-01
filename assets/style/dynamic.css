@@ -146,17 +146,16 @@ footer {
 }
 
 .mobile {
-  max-height: 0;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background-color: #FFECD1;
+  transition: max-height 0.4s ease;
 }
 
 .mobile.active {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  max-height: 100%:
-  width: 100%;
-  background-color: #FFECD1;
-  transition: max-height 0.4s ease;
 }
 
 @media screen and (max-width: 768px) {
