@@ -1,6 +1,3 @@
-const bars = document.querySelector('.bars i');
-const mobile = document.querySelector('.mobile');
-
 document.getElementById('header').innerHTML = `
 <header>
   <div class="left">
@@ -73,6 +70,9 @@ document.getElementById('footer').innerHTML = (`
       </div>
     </footer>
 `);
+
+const bars = document.querySelector('.bars i');
+const mobile = document.querySelector('.mobile');
 
 document.querySelector('.bars').addEventListener('click', () => {
   mobile.classList.toggle('active');
