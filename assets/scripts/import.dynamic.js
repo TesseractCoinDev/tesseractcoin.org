@@ -15,19 +15,19 @@ document.getElementById('header').innerHTML = `
     <a class="hl" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
   </div>
   <span class="bars"><i class="fas fa-bars"></i></span>
-  <div class="mobile">
-    <a class="hlm" href="https://docs.tesseractcoin.org/">Docs</a>
-    <a class="hlm" href="/products/mining">Mining</a>
-    <a class="hlm" href="/products/wallet">Wallet</a>
-    <a class="hlm" href="https://status.tesseractcoin.org/">Status</a>
-    <a class="hlm" href="/changelog.html">Changelog</a>
-    <div class="div"></div>
-    <a class="hlm" href="https://github.com/TessseractCoinDev/TesseractCoin" target="_blank"><i class="fab fa-github"></i></a>
-    <a class="hlm" href="https://x.com/TesseractDevs" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a class="hlm" href="https://discord.gg/wPA6eeUEpM" target="_blank"><i class="fab fa-discord"></i></a>
-    <a class="hlm" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
-  </div>
 </header>
+<div class="mobile">
+  <a class="hlm" href="https://docs.tesseractcoin.org/">Docs</a>
+  <a class="hlm" href="/products/mining">Mining</a>
+  <a class="hlm" href="/products/wallet">Wallet</a>
+  <a class="hlm" href="https://status.tesseractcoin.org/">Status</a>
+  <a class="hlm" href="/changelog.html">Changelog</a>
+  <div class="div"></div>
+  <a class="hlm" href="https://github.com/TessseractCoinDev/TesseractCoin" target="_blank"><i class="fab fa-github"></i></a>
+  <a class="hlm" href="https://x.com/TesseractDevs" target="_blank"><i class="fab fa-x-twitter"></i></a>
+  <a class="hlm" href="https://discord.gg/wPA6eeUEpM" target="_blank"><i class="fab fa-discord"></i></a>
+  <a class="hlm" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
+</div>
 `;
 
 document.getElementById('footer').innerHTML = (`
