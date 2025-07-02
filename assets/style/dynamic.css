@@ -150,7 +150,9 @@ footer {
   flex-direction: column;
   text-align: center;
   width: 100%;
-  background-color: #FFECD1;
+  background-color: #FFD580;
+  z-index: 100;
+  padding: 10px;
   transition: max-height 0.4s ease;
 }
 
@@ -187,10 +189,11 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    font-size: 20px;
+    font-size: 30px;
     margin: 5px 0;
     text-decoration: none;
     font-weight: 500;
+    color: #8B715E; 
     transition: color 0.3s ease;
   }
 
