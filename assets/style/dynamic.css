@@ -141,7 +141,8 @@ footer {
 .hlm,
 .div,
 .bars,
-.mobile {
+.mobile,
+.mobiles {
   display: none;
 }
 
@@ -164,6 +165,11 @@ footer {
   header {
     flex-direction: row;
     text-align: center;
+  }
+
+  .mobiles {
+    display: flex;
+    flex-direction: row;
   }
 
   .bars {
@@ -198,9 +204,9 @@ footer {
   }
 
   .div {
-    width: 1px;
-    height: 20px;
-    background: #E5C5B1;
+    width: 80%;
+    height: 2px;
+    background-color: #E5C5B1;
   }
 
   .headerlogo {
