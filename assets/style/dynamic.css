@@ -192,6 +192,10 @@ footer {
     display: block;
   }
 
+  .div {
+    justify-content: center;
+  }
+
   .hlm {
     display: flex;
     align-items: center;
