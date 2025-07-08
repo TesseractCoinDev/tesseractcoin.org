@@ -17,6 +17,7 @@ document.getElementById('header').innerHTML = `
   <span class="bars"><i class="fas fa-bars"></i></span>
 </header>
 <div class="mobile">
+  <img class="mhl" src="/assets/images/tesseract-lockup-1.transparent.png" alt="TESSERACT" onclick="window.location.href='/';">
   <a class="hlm" href="https://docs.tesseractcoin.org/">Docs</a>
   <a class="hlm" href="/products/mining">Mining</a>
   <a class="hlm" href="/products/wallet">Wallet</a>
