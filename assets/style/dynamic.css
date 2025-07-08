@@ -30,7 +30,8 @@ footer {
   align-items: center;
 }
 
-.headerlogo {
+.headerlogo,
+.mhl {
   width: 200px;
   height: auto;
   object-fit: cover;
@@ -149,6 +150,7 @@ footer {
   display: none;
   flex-direction: column;
   text-align: center;
+  justfiy-content: center;
   width: 100%;
   background-color: #FFD580;
   z-index: 100;
@@ -158,14 +160,6 @@ footer {
 
 .mobile.active {
   display: flex;
-}
-
-.mhl {
-  width: 100px;
-  height: auto;
-  object-fit: cover;
-  margin-right: 2.5px;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
