@@ -196,22 +196,32 @@ footer {
     text-align: center;
   }
 
-  .hlm {
+  .hlm,
+  .hlme {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 5px;
     font-size: 30px;
     margin: 5px 0;
     text-decoration: none;
     font-weight: 500;
     color: #8B715E; 
-    border: 2px solid #8B715E;
     border-radius: 10px;
     transition: color 0.3s ease;
   }
 
-  .hlm:hover {
+  .hlm {
+    border-bottom: 2px solid #8B715E;
+  }
+
+  .hlms {
+    border: 2px solid #8B715E;
+    border-radius: 10px;
+  }
+
+  .hlm:hover,
+  .hmle:hover {
     color: #FF7755;
   }
 
@@ -222,7 +232,7 @@ footer {
     cursor: pointer;
     margin: 0 auto;
     padding: 5px;
-    border: 2px solid #8B715E;
+    box-shadow: 0 0 10px rgba(139, 113, 94, 0.3);
     border-radius: 10px;
   }
 
