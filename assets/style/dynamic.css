@@ -30,8 +30,7 @@ footer {
   align-items: center;
 }
 
-.headerlogo,
-.mhl {
+.headerlogo {
   width: 200px;
   height: auto;
   object-fit: cover;
@@ -215,7 +214,14 @@ footer {
   }
 
   .mhl {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
     margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #8B715E;
+    border-radius: 10px;
   }
 
   .div {
