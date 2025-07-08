@@ -22,13 +22,13 @@ document.getElementById('header').innerHTML = `
   <a class="hlm" href="/products/mining">Mining</a>
   <a class="hlm" href="/products/wallet">Wallet</a>
   <a class="hlm" href="https://status.tesseractcoin.org/">Status</a>
-  <a class="hlm" href="/changelog.html">Changelog</a>
+  <a class="hlme" href="/changelog.html">Changelog</a>
   <div class="div"></div>
   <div class="mobiles">
-    <a class="hlm" href="https://github.com/TesseractCoinDev/TesseractCoin" target="_blank"><i class="fab fa-github"></i></a>
-    <a class="hlm" href="https://x.com/TesseractDevs" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a class="hlm" href="https://discord.gg/wPA6eeUEpM" target="_blank"><i class="fab fa-discord"></i></a>
-    <a class="hlm" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
+    <a class="hlms" href="https://github.com/TesseractCoinDev/TesseractCoin" target="_blank"><i class="fab fa-github"></i></a>
+    <a class="hlms" href="https://x.com/TesseractDevs" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    <a class="hlms" href="https://discord.gg/wPA6eeUEpM" target="_blank"><i class="fab fa-discord"></i></a>
+    <a class="hlms" href="/donate.html" target="_blank"><i class="fas fa-heart"></i></a>
   </div>
 </div>
 `;
