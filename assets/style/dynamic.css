@@ -160,6 +160,14 @@ footer {
   display: flex;
 }
 
+.mhl {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 2.5px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: row;
