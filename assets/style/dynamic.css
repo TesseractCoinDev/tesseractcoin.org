@@ -118,7 +118,8 @@ footer {
   text-align: center;
 }
 
-.s:hover {
+.s:hover,
+.hlms:hover {
   background-color: #FF7755;
 }
 
@@ -207,7 +208,6 @@ footer {
     text-decoration: none;
     font-weight: 500;
     color: #8B715E; 
-    border-radius: 10px;
     transition: color 0.3s ease;
   }
 
@@ -217,7 +217,12 @@ footer {
 
   .hlms {
     border: 2px solid #8B715E;
-    border-radius: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 15px;
+    text-deoration: none;
+    color: #8B715E;
+    background-color: #E5C5B1;
   }
 
   .hlm:hover,
@@ -237,10 +242,10 @@ footer {
   }
 
   .div {
-    width: 80%;
-    height: 4px;
+    width: 100%
+    height: 2px;
     background-color: #8B715E;
-    margin: 0 5% 0 5%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
   }
