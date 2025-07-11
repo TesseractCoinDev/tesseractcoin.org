@@ -152,10 +152,11 @@ footer {
   text-align: center;
   justfiy-content: center;
   width: 100%;
-  background-color: #cfbea7;
+  background-color: #5C3A1E;
   z-index: 100;
   padding: 10px;
   transition: max-height 0.4s ease;
+  overflow-x: hidden;
 }
 
 .mobile.active {
@@ -223,6 +224,10 @@ footer {
     text-deoration: none;
     color: #8B715E;
     background-color: #E5C5B1;
+    margin: 0 2.5px 0 2.5px;
+    width: 35px;
+    height: auto;
+    text-align: center;
   }
 
   .hlm:hover,
