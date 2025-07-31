@@ -45,6 +45,7 @@ document.getElementById('footer').innerHTML = (`
             <p class="ftitle">Support</p>
             <a class="flink" href="https://support.tesseractcoin.org/">Support</a>
             <a class="flink" href="https://community.tesseractcoin.org/">Forums</a>
+            <a class="flink" href="https://istekdev.org/contact">Contacts</a>
         </div>
       </div>
       <div class="fbottom">
